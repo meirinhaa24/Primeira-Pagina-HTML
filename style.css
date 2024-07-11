@@ -1,50 +1,206 @@
-body{ font-family: Arial, sans-serif;
+/*Estilos simples para melhorar a aparência*/
+body{ font-family: Arial, sans-serif; 
   margin:0;
   padding: 0;
   background-color: #f0f0f0;}
-  
- 
- header{
-  background-color: #333;
+
+header{ background-color: #333;
   color: #fff;
   text-align: center;
   padding: 1em 0;}
 
-  section{padding: 10px 0;}
-  input,textarea {width: 30%;
-    padding: 8px 0 ;}
+section{padding: 10px 0;}
+
+input,textarea {
+width: 30%;
+padding: 8px 0 ;}
+
 button
-{width: 10%;
+{width:30%;
 padding: 10px;}
 
-.container {
-  width: 80%;
-  margin: auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 5px;
-margin-top: 20px;
-margin-bottom: 20px;}
-.image {
-  float: right;
-  padding: 5px;}
-.foto {
-width: 128px;
-border-radius: 7px;}
+/*Estilos do menu*/
+nav ul { list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;}
+
+nav ul li { display: inline;}
+
+nav ul li a {color:#fff;
+text-decoration: none;
+padding: 10px 20px;
+display:inline-block;}
+
+nav ul li a:hover {background-color:#555;}
+
+.container {display: flex;
+  justify-content: center;
+  align-items:center;}
+
+/*Estilos da sidebar*/
+.sidebar{
+width: 25%;
+margin: 0 2%;
+height: 80vh;
+background-image: linear-gradient(to bottom,#fff, #c4e0e5,#4ca1af);
+padding:3%;
+text-align:center;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius:5px;
+margin-top:1%;
+margin-bottom:1%;
+margin-right:5%;}
+
+.profile img {
+width: 150px;
+border-radius: 5%;
+margin-bottom: 10px;}
+
+.profile p {color:#9e9b9b;}
+
+.social-links {margin-top: 20px;}
+
+.social-links a {
+display:inline-block;
+margin-right: 10px;}
+
+.social-links img {
+ width: 32px;
+height: 32px;
+padding: 5px;}
+
+.main {
+width: 60%;
+height: 80vh;
+padding: 3%;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 5px;
+margin-top: 1%;
+margin-bottom: 1%;
+margin-left: 5%;}
+
 .name,
 .email,
-.msg {
- padding: 10px 0;}
-footer
- { background-color:#333;
-color: #fff;
+.msg{
+padding: 10px 0;}
+
+/*Estilos de depoimentos*/
+.testimonial{
+margin-bottom: 30px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;}
+
+.testimonial img
+{width: 80px;
+height: 80px;
+border-radius: 50%;
+margin-bottom: 10px;}
+
+blockquote{font-style: italic;
+margin: 0;}
+
+cite {display: block;
+text-align: right;
+margin-top: 10px;
+font-style: normal;
+color: #666;}
+
+/*Estilos do servico*/
+
+.wrap{
+display:flex ;
+justify-content: center;
+align-items: center;}
+
+.service
+{width: 45%;
+margin: 20px;
+padding: 15px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 5px;
+overflow: hidden;}
+
+.service img{
+width: 90%;
+height: auto;
+border-radius: 5px 5px 0 0;}
+
+.service-info{padding: 15px;}
+
+.service-info h2 {margin-top: 0;
+margin-bottom: 10px;
+color: #333;}
+
+.service-info p{
+color: #666;
+font-size: 14px;
+line-height: 1.5;}
+  
+.btn {display: inline-block;
+background-color: #333;
+color:#fff;
+text-decoration: none;
+padding: 8px 15px;
+border-radius: 5px;
+margin-top: 10px;}
+
+.btn:hover
+{background-color: #555;}
+
+footer {background-color: #333;
+color:#fff;
 text-align: center;
 padding: 1em 0;
-position:fixed;
-bottom: 0 ;
-width: 100%;
- }
+bottom: 0;
+width: 100%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
